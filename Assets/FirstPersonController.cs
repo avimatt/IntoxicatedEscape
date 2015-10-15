@@ -56,7 +56,7 @@ public class FirstPersonController : MonoBehaviour {
 
 			if(leaningLeft){
 				correctingAngle = true;
-				angles[2] = angles[2] - (angles[2] * .05f);
+				angles[2] = angles[2] - (angles[2] * .03f);
 				cameraGO.transform.rotation = Quaternion.Euler(angles);
 				if(cameraGO.transform.rotation.eulerAngles[2] < 0.009){
 					leaningLeft = false;
@@ -64,7 +64,7 @@ public class FirstPersonController : MonoBehaviour {
 			} 
 			if(leaningRight) {
 				correctingAngle = true;
-				angles[2] = angles[2] + ((360 - angles[2]) * .05f);
+				angles[2] = angles[2] + ((360 - angles[2]) * .03f);
 				cameraGO.transform.rotation = Quaternion.Euler(angles);
 
 				if(cameraGO.transform.rotation.eulerAngles[2] < 0.009){
