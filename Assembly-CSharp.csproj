@@ -45,8 +45,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FirstPersonController.cs" />
-     <Compile Include="Assets\lowerReputation.cs" />
+     <Compile Include="Assets\_Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\_Scripts\lowerReputation.cs" />
+     <Compile Include="Assets\_Scripts\timeController.cs" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
