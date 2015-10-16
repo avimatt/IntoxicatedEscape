@@ -8,6 +8,14 @@ public class timeController : MonoBehaviour {
 	public float sec;
 
 	public GameObject time;
+	public GameObject greenScreen;
+
+	const float nausiaTime = 30.5f;
+
+
+	void Start() {
+		greenScreen.SetActive (false);
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -18,6 +26,9 @@ public class timeController : MonoBehaviour {
 		if (sec <= -.5f) {
 			sec = 59;
 			min -= 1;
+		}
+		if (min <= 0 && sec <= nausiaTime) {
+			greenScreen.SetActive (true);
 		}
 		time.GetComponent<Text> ().text = getTimeString (min) + ":" + getTimeString (sec);
 	}
