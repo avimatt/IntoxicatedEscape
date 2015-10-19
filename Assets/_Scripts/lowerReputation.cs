@@ -8,7 +8,8 @@ public class lowerReputation : MonoBehaviour {
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		if(hit.gameObject.tag == "NPC"){
-			float width = reputationBarGO.GetComponent<Image> ().rectTransform.sizeDelta.x - 10;
+			float width = reputationBarGO.GetComponent<Image> ().rectTransform.sizeDelta.x - 20;
+			if(width < 0) width = 0;
 			Vector2 temp = new Vector2 (width, reputationBarGO.GetComponent<Image> ().rectTransform.sizeDelta.y);
 			reputationBarGO.GetComponent<Image> ().rectTransform.sizeDelta = temp;
 			SetColor(width);
