@@ -1,9 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/lowerReputation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/ThrowUp.cs">
     <Files>
-      <File FileName="../pokemon/Assets/__Scripts/Main.cs" Line="7" Column="20" />
-      <File FileName="Assets/_Scripts/lowerReputation.cs" Line="11" Column="87" />
+      <File FileName="Assets/_Scripts/collisionHandler.cs" Line="9" Column="1" />
+      <File FileName="Assets/_Scripts/Main.cs" Line="57" Column="1" />
+      <File FileName="Assets/_Scripts/FirstPersonController.cs" Line="22" Column="23" />
+      <File FileName="Assets/_Scripts/startGame.cs" Line="23" Column="26" />
+      <File FileName="Assets/_Scripts/turnToPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/ThrowUp.cs" Line="1" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
