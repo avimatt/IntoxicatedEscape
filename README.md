@@ -18,4 +18,6 @@ In this version the player only had the ability to make lateral movements. This 
 
 One feature I implemented to really accentuate this new goal include a sound affect whenever you bump into someone. Another is when you reputation is very low all the NPC’s in the room turn to look at you which is meant to really put forth the self conscious feeling the player should have at this point. Upon completing the level the player is given their “grade”, a sentence or two about what they have accomplished socially. At the beginning of the game right before the player begins making their way to the bathroom they hear their thoughts vocalized and the end of this train of thought is: “I hope no one can tell I can’t hold my liquor.”, to indicate this goal.
 
-I didn’t have enough time to add in little snippets of sound to make the player feel even more self conscious if their reputation meter is low. I wanted to have it feel like the NPC’s were talking about the player.  
+I didn’t have enough time to add in little snippets of sound to make the player feel even more self conscious if their reputation meter is low. I wanted to have it feel like the NPC’s were talking about the player. 
+
+Can be found: http://www-personal.umich.edu/~avimatt/IntoxicatedEscape/
